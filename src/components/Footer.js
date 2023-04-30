@@ -1,11 +1,11 @@
 import {Box, Container, TextField, Grid, InputAdornment, IconButton, Button } from "@mui/material";
-import logo from "../assets/zaperon_logo.png"
+// import logo from "../assets/zaperon_logo.png"
 
 
 const Footer = () => {
   return (
     <Container style={{ display: 'flex', justifyContent: 'space-around', alignItems:'center' ,marginTop:'90px' ,marginLeft:'25px',position: "fixed" }}maxWidth>
-      <div style={{ flex: '1 1 auto', }}>Powered by <img src={logo} alt="logo" /></div>
+      <div style={{ flex: '1 1 auto', }}>Powered by Your LOGO</div>
       <Box sx={{ display: 'flex', flex: '0 1 auto' }}>
         <Box style={{ flex: '1 1 auto', fontSize: '20px',fontFamily:'sans-serif',color:'#003FB9', textAlign:'center', fontWeight:'bold' }} >Need Help?</Box>
         <Box sx={{ flex: '1 1 auto' , fontSize: '20px',fontFamily:'sans-serif',color:'#003FB9', textAlign:'center', fontWeight:'bold', marginLeft:'10px', marginRight:"30px"}}>Privacy Policy <span style={{fontWeight:"normal"}}> &</span>  Terms </Box>
